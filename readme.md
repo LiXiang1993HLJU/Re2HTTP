@@ -7,4 +7,5 @@
         
         
 编译依赖的库 nids,pcap,http_parser,zlib;
+
 g++ -std=c++1 GetHTTP.cpp -lnids -lpcap -lnet -lglib-2.0 -lgthread-2.0 -lhttp_parser -lz -o GetHTTP.out
